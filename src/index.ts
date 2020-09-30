@@ -1,9 +1,10 @@
-import "reflect-metadata";
-import {createConnection} from "typeorm";
+import 'reflect-metadata';
+import { createConnection } from 'typeorm';
 import express from 'express';
-import * as bodyParser from "body-parser";
-import routes from "./routes";
 import * as dotenv from 'dotenv';
+import * as bodyParser from 'body-parser';
+
+import routes from './routes';
 
 const app = express();
 
